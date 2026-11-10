@@ -1,0 +1,1 @@
+Optional: drop a loud scream sound here named scream.ogg (mono, OGG Vorbis) and set use-custom-sound: true in the plugin config.

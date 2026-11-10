@@ -1,0 +1,14 @@
+name: TrollPlugin
+version: 1.0
+main: com.troll.TrollPlugin
+api-version: "1.21"
+description: OP-only troll commands
+commands:
+  troll:
+    description: Troll a player
+    usage: /troll <jumpscare|keyboard|nonstopjump|loadingscreen> <player>
+    permission: troll.use
+permissions:
+  troll.use:
+    description: Use /troll
+    default: op
